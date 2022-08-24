@@ -1,0 +1,34 @@
+html, body {height: 100%;}
+body {
+    background-color:#fff;
+    font:normal 16px/1.5em "Helvetica Neue",Tahoma,Arial,"PingFang SC","Hiragino Sans GB","Microsoft Yahei",sans-serif;
+}
+a {color: #666;}
+
+table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+}
+th,td {border: 1px solid #ccc;}
+
+pre {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    overflow-x: auto;
+}
+
+.sidebar {
+    position: fixed;
+    height: 100%;
+    width: 240px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.sidebar a {
+    display: block;
+    margin-bottom: 20px;
+}
+.main {
+    margin-left: 250px;
+}
